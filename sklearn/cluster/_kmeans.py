@@ -346,7 +346,7 @@ def k_means(
         n_init consecutive runs in terms of inertia.
 
         When `n_init='auto'`, the number of runs will be 10 if using
-        `init='random'`, and 1 if using `init='kmeans++'`.
+        `init='random'`, and 1 if using `init='k-means++'`.
 
         .. versionadded:: 1.2
            Added 'auto' option for `n_init`.
